@@ -1,10 +1,6 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-html {
-    
-}
-
 body {
     display: flex;
     align-items: center;
@@ -28,7 +24,26 @@ body {
     padding-top: 100px;
 }
 
-.questions {
+.questions-list {
     margin: 0 20px;
     font-size: 12px;
+}
+
+.question{
+    border: 1px solid red;
+    height: 3em;
+    width: 100%;
+}
+
+.question p {
+    float: left;
+}
+
+.question img {
+    margin-top: 1.3em;
+    float: right;
+}
+
+.hidden {
+    display: none;
 }
