@@ -29,16 +29,17 @@ body {
 .questions-list {
     margin: 0 20px;
     font-size: 12px;
+    width: 90%;
 }
 
 .question{
-    border: 1px solid red;
     height: 3em;
     width: 100%;
 }
 
 .question p {
     float: left;
+    color: hsl(237, 12%, 33%);
 }
 
 .question img {
@@ -48,4 +49,16 @@ body {
 
 .hidden {
     display: none;
+}
+
+hr {
+    color: hsl(240, 5%, 91%)
+}
+
+.answer p {
+    color: hsl(240, 6%, 50%);
+}
+
+.bold {
+    font-weight: 700;
 }
