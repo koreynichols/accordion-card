@@ -62,3 +62,7 @@ hr {
 .bold {
     font-weight: 700;
 }
+
+.flip {
+    transform: scaleY(-1);
+}

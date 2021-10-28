@@ -8,11 +8,13 @@ function toggleAnswer() {
     isHidden = checkIfHidden(this.nextElementSibling.classList);
     if(isHidden === true){
         this.nextElementSibling.classList.remove("hidden");
-        this.children[0].classList.add("bold")
+        this.children[0].classList.add("bold");
+        this.children[1].classList.add("flip");
         return;
     }
     this.nextElementSibling.classList.add("hidden");
-    this.children[0].classList.remove("bold")
+    this.children[0].classList.remove("bold");
+    this.children[1].classList.remove("flip");
 }
 
 function checkIfHidden(list_of_classes) {
